@@ -6,7 +6,7 @@ FROM openjdk:11-jdk
 VOLUME /tmp
 
 # The application’s jar file
-ARG JAR_FILE=target/cloudBuildHelloWorld-1.0.0.jar
+ARG JAR_FILE=target/cloudkubernetes-1.0.0.jar
 
 # Add the application’s jar to the container
 ADD ${JAR_FILE} app.jar
