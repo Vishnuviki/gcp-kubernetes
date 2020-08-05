@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: gcr.io/$PROJECT_ID/myimage:latest
+        image: gcr.io/$PROJECT_ID/kubeimage:latest
         ports:
         - containerPort: 80
 ---
